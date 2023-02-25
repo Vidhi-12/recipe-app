@@ -1,0 +1,304 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/******************Signup *************/
+
+.main-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 119, 119);
+}
+
+.container{
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  width: 30%;
+  color: gray;
+}
+
+.icon-div{
+  margin-top: 8px;
+  margin-right: 15px;
+}
+
+.form-container{
+  margin-top: 70px;
+}
+
+.form-div{
+  width: 100%;
+  margin-right: 25px;
+}
+
+.signup{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.signup-btn{
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgb(248, 119, 119);
+  color: white;
+}
+
+.signup-field{
+  padding: 10px 0 5px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+.form-container p{
+  font-size: 10px;
+}
+
+/********************SignIn****************/
+
+
+.main-container-signin{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 178, 250);
+}
+
+.container-signin{
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  width: 30%;
+}
+
+.form-div-signin{
+  width: 100%;
+  margin: 0 30px 0 30px;
+}
+
+.form-div-signin h1{
+  text-align: center;
+}
+
+.signup{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.signin-btn{
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(52, 178, 250);
+  color: white;
+}
+
+.form-container-signin input[type="email"], input[type="password"]{
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid gray;
+  width: 92%;
+}
+
+.forgot-password{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.forgot-password span{
+  margin-left: 5px;
+  color: rgb(52, 178, 250);
+}
+
+/******************** Create Recipe****************/
+
+
+.main-container-create{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.container-create{
+  display: flex;
+  padding: 20px 20px 0 20px;
+  width: 40%;
+}
+
+.horizontal-line{
+  width: 20%;
+  height: 2px;
+  background-color: white;
+}
+
+.form-div-create{
+  width: 100%;
+  /* margin: 0 10px 0 30px; */
+}
+
+.form-div-create h1{
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.form-div-create p{
+  color: gray;
+}
+
+.heading{
+  margin-top: 10px;
+  color: gray;
+}
+
+.recipe-btn{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.form-container-create{
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.form-fields{
+  margin-top: 10px;
+}
+
+.form-container-create .input-text{
+  padding: 10px;
+  margin-top: 10px;
+  outline: none;
+  height: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 95%;
+}
+
+.textarea-field{
+  width: 98%;
+  height: 60px;
+  margin-top: 10px;
+}
+
+
+/******************** Landing****************/
+
+
+.main-container-landing{
+  background-color: gainsboro;
+}
+
+.container-landing{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.main-landing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/********************Nav************/
+
+.nav-section{
+  display: flex;
+  padding: 20px 0 20px 0;
+}
+
+.nav-section img{
+  width: 35px;
+  height: 30px;
+}
+
+.nav-section h1{
+  margin-left: 10px;
+}
+
+/******************Search***************/
+
+.search-section input{
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(53, 52, 52);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/*****************CreateRecipeBtn ***************/
+
+.create-button-section button{
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(53, 52, 52);
+  color: white;
+}
